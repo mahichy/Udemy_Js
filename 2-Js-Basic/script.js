@@ -52,7 +52,7 @@ console.log(lastName);
 
 /********Basic Operators****************/
 
-var year, yearJhon, yearMark;
+/*var year, yearJhon, yearMark;
 
 now = 2020;
 birthYear = 1982;
@@ -82,9 +82,45 @@ console.log(typeof yearMark);
 console.log(typeof birthYear);
 console.log(typeof 'What is the age of Jhon?');
  var x;
- console.log(typeof x);
+ console.log(typeof x); 
+
+ */
+
+ /**************Operator Precedence***************************/
+
+ var now = 2020;
+ var yearJhon = 1989;
+ var fullAge = 18;
+// Multipal Operator
+ var isFullAge = now - yearJhon >= fullAge;
+ console.log(isFullAge);
 
 
+// Grouping
+ var ageJhon = now - yearJhon;
+ console.log(ageJhon);
+ var ageMark = 35;
+ var average = (ageJhon + ageMark) / 2;
+ console.log(average);
+
+ console.log(ageJhon + ageMark); 
+
+// Multiple Assignments
+
+var x, y;
+x = y = (3 + 5) * 4 - 6;
+console.log(x, y);
+
+// More Operators
+
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+x++;
+console.log(x);
+x--;
+console.log(x);
 
 
 
