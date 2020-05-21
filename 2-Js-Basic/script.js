@@ -26,6 +26,7 @@ Variables and data type
 //Variables mutation and type coercion
 
 
+/*
 var firstName = 'John';
 var age = 28;
 
@@ -47,6 +48,41 @@ alert(firstName +' is '+ age +' years old '+ job + ' is he married? '+ isMarried
 
 var lastName = prompt('What is his lastName?');
 console.log(lastName);
+*/
+
+/********Basic Operators****************/
+
+var year, yearJhon, yearMark;
+
+now = 2020;
+birthYear = 1982;
+ageJhon = 28;
+ageMark = 33;
+
+// Math Operators
+yearJhon = now -ageJhon;
+yearMark = now -ageMark;
+
+console.log(yearJhon);
+console.log(yearMark);
+
+console.log(now + 2);
+
+
+// Logical Operators
+
+var jhonOlder = ageJhon > ageMark;
+console.log(jhonOlder);
+
+
+// Typeof  Operator
+console.log(typeof jhonOlder);
+console.log(typeof ageJhon);
+console.log(typeof yearMark);
+console.log(typeof birthYear);
+console.log(typeof 'What is the age of Jhon?');
+ var x;
+ console.log(typeof x);
 
 
 
