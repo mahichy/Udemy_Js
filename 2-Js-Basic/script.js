@@ -88,43 +88,59 @@ console.log(typeof 'What is the age of Jhon?');
 
  /**************Operator Precedence***************************/
 
- var now = 2020;
- var yearJhon = 1989;
- var fullAge = 18;
-// Multipal Operator
- var isFullAge = now - yearJhon >= fullAge;
- console.log(isFullAge);
+//  var now = 2020;
+//  var yearJhon = 1989;
+//  var fullAge = 18;
+// // Multipal Operator
+//  var isFullAge = now - yearJhon >= fullAge;
+//  console.log(isFullAge);
 
 
-// Grouping
- var ageJhon = now - yearJhon;
- console.log(ageJhon);
- var ageMark = 35;
- var average = (ageJhon + ageMark) / 2;
- console.log(average);
+// // Grouping
+//  var ageJhon = now - yearJhon;
+//  console.log(ageJhon);
+//  var ageMark = 35;
+//  var average = (ageJhon + ageMark) / 2;
+//  console.log(average);
 
- console.log(ageJhon + ageMark); 
+//  console.log(ageJhon + ageMark); 
 
-// Multiple Assignments
+// // Multiple Assignments
 
-var x, y;
-x = y = (3 + 5) * 4 - 6;
-console.log(x, y);
+// var x, y;
+// x = y = (3 + 5) * 4 - 6;
+// console.log(x, y);
 
-// More Operators
+// // More Operators
 
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
-x++;
-console.log(x);
-x--;
-console.log(x);
-
-
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
+// x++;
+// console.log(x);
+// x--;
+// console.log(x);
 
 
+
+// Class_12 Coading challange solution 
+
+var massMark = 78; // kg
+var hightMark = 1.69; // meters
+
+
+var massJhon = 92; //kg
+var hightJhon = 1.95; //meters
+
+var BMIMark = massMark / (hightMark * hightMark);
+var BMIJhon = massJhon / (hightJhon * hightJhon);
+console.log(BMIMark, BMIJhon);
+
+
+var markHigherBMI =  BMIMark > BMIJhon;
+console.log('is Mark\'s BMI higher than jhon\'s?' + markHigherBMI )
+ 
 
 
 
