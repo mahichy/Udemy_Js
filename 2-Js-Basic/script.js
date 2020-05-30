@@ -126,6 +126,7 @@ console.log(typeof 'What is the age of Jhon?');
 
 // Class_12 Coading challange solution 
 
+/*
 var massMark = 78; // kg
 var hightMark = 1.69; // meters
 
@@ -140,7 +141,61 @@ console.log(BMIMark, BMIJhon);
 
 var markHigherBMI =  BMIMark > BMIJhon;
 console.log('is Mark\'s BMI higher than jhon\'s?' + markHigherBMI )
- 
+ */
+
+
+
+ /******************************
+		if / else statements 
+ *****************************************/
+
+var firstName = 'Jhon';
+var civilStatus = 'single';
+
+if (civilStatus === 'married') {
+	console.log(firstName + ' is married!')
+} else {
+	console.log(firstName + ' we hopefully married soon :-)')
+}
+
+var isMarried = false;
+if (isMarried) {
+	console.log(firstName + ' is Married!')
+} else {
+	console.log(firstName + ' will hopefully married very soooon:-)')
+}
+
+
+
+var massMark = 278; // kg
+var hightMark = 1.69; // meters
+
+
+var massJhon = 192; //kg
+var hightJhon = 1.95; //meters
+
+var BMIMark = massMark / (hightMark * hightMark);
+var BMIJhon = massJhon / (hightJhon * hightJhon);
+
+if (BMIMark > BMIJhon){
+	console.log(' Mark\'s BMI is higher than Jhon\'s ')
+}else {
+	console.log(' Jhon\'s BMI is higher than Mark\'s ')
+}
+
+
+
+var ageMahi = 28;
+var ageMark = 30;
+
+
+
+if (ageMahi > ageMark){
+	console.log('Mahi\'s is ager than Mark' );
+}else {
+	console.log('Mark\'s is ager than Mahi');
+}
+
 
 
 
